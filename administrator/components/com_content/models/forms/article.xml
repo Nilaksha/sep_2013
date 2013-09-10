@@ -13,8 +13,13 @@
 
 		<field name="alias" type="text" label="JFIELD_ALIAS_LABEL"
 			description="JFIELD_ALIAS_DESC" class="inputbox" size="45" labelclass="control-label" />
-
-		<field name="articletext" type="editor" class="inputbox"
+                
+                <!-- my block start-->
+                <field name="version_note" type="text" label="COM_CONTENT_FIELD_VERSION_NOTE_LABEL"
+                description="COM_CONTENT_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label" />
+		<!-- my block end -->
+                
+                <field name="articletext" type="editor" class="inputbox"
 			label="COM_CONTENT_FIELD_ARTICLETEXT_LABEL" description="COM_CONTENT_FIELD_ARTICLETEXT_DESC"
 			filter="JComponentHelper::filterText" buttons="true" />
 

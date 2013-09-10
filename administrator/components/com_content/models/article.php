@@ -25,7 +25,9 @@ class ContentModelArticle extends JModelAdmin
 	 * @since   1.6
 	 */
 	protected $text_prefix = 'COM_CONTENT';
-
+        //my code start
+        public $typeAlias = 'com_content.article';
+        //my code end
 	/**
 	 * Batch copy items to a new category or current.
 	 *

@@ -138,7 +138,7 @@ abstract class JToolbarHelper
 		// Add a help button.
 		$bar->appendButton('Help', $ref, $com, $override, $component);
 	}
-
+        
 	/**
 	 * Writes a cancel button that will go back to the previous page without doing
 	 * any other operation.
