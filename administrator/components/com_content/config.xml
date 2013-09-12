@@ -6,12 +6,13 @@
         description="COM_CONTENT_CONFIG_ARTICLE_SETTINGS_DESC">
 
         <field
-            name="article_layout" type="componentlayout"
-                                  label="JGLOBAL_FIELD_LAYOUT_LABEL"
-                                  description="JGLOBAL_FIELD_LAYOUT_DESC"
-                                  menuitems="true"
-                                  extension="com_content"
-                                  view="article"
+            name="article_layout" 
+            type="componentlayout"
+            label="JGLOBAL_FIELD_LAYOUT_LABEL"
+            description="JGLOBAL_FIELD_LAYOUT_DESC"
+            menuitems="true"
+            extension="com_content"
+            view="article"
 		/>
 
         <field
